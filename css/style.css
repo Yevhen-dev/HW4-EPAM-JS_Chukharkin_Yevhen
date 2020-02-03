@@ -1,0 +1,40 @@
+.section {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+}
+#canvas {
+    border: 1px solid #e2d5d5;
+}
+
+
+
+
+/*bool intersects(Circle circ, Rectangle rect)*/
+/*{*/
+/*    distance.x = abs(circ.x - rect.x);*/
+/*    distance.y = abs(circ.y - rect.y);*/
+/*if (distance.x > (rect.width/2 + circ.r)) { return false; }*/
+/*if (distance.y > (rect.height/2 + circ.r)) { return false; }*/
+/*if (distance.x <= (rect.width/2)) { return true; }*/
+/*if (distance.y <= (rect.height/2)) { return true; }*/
+/*cDist_sq = (distance.x - rect.width/2)^2 + (distance.y - rect.height/2)^2;*/
+
+/*return (cDist_sq <= (circ.r^2));*/
+/*}*/
+
+
+
+/*if (arrFigure[0].x < arrFigure[1].x + arrFigure[1].width &&*/
+/*arrFigure[0].x + arrFigure[0].width > arrFigure[1].x &&*/
+/*arrFigure[0].y < arrFigure[1].y + arrFigure[1].width &&*/
+/*arrFigure[0].y + arrFigure[0].width > arrFigure[1].y &&*/
+/*arrFigure[0].show === arrFigure[1].show  ||*/
+/*        arrFigure[0].x < arrFigure[1].x + arrFigure[1].radius*2 &&*/
+/*arrFigure[0].x + arrFigure[0].radius*2 > arrFigure[1].x &&*/
+/*arrFigure[0].y < arrFigure[1].y + arrFigure[1].radius*2 &&*/
+/*arrFigure[0].y + arrFigure[0].radius*2 > arrFigure[1].y &&*/
+/*arrFigure[0].show === arrFigure[1].show) {*/
+/*    arrFigure[0].dx = -arrFigure[0].dx*/
+/*    arrFigure[1].dx = -arrFigure[1].dx*/
+/*}*/
